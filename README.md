@@ -3,19 +3,19 @@
 </p>
 
 <h1>osTicket - Post-Install Configuration</h1>
-This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
+This tutorial provides detailed instructions for the post-installation configuration of the open-source help desk ticketing system, osTicket. It walks you through essential setup steps to ensure the system is fully functional and tailored to your organization's needs. Key areas covered include user roles, department configurations, and team setup to manage ticket routing efficiently. By following this guide, you'll configure everything from agent settings to service level agreements, ensuring a smooth and effective ticketing experience for both agents and customers.<br />
 
 
 <h2>Video Demonstration</h2>
 
-- ### [YouTube: How To Confingure osTicket, post-installation](https://www.youtube.com)
-- ### [YouTube: How To Configure osTicket, post-installation](https://www.youtube.com)
+
 
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Internet Information Services (IIS)
+- osTicket System
 
 <h2>Operating Systems Used </h2>
 
@@ -23,11 +23,20 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Post-Install Configuration Objectives</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+osTicketing system Configurations:
+-Ticket properties
+
+-Agents
+
+-Help Topics
+
+-SLA
+
+-Departments
+
+-Roles/Permissions
+
+-Users/Teams
 
 <h2>Configuration Steps</h2>
 
@@ -35,7 +44,13 @@ This tutorial outlines the post-install configuration of the open-source help de
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Part 1: Configuration of Roles, Departments, and Teams
+
+Configure roles to group permissions (Admin Panel -> Agents -> Roles). Example: "Supreme Admin."
+
+Departments: Set up departments for ticket visibility and assignment (Admin Panel -> Agents -> Departments). Example: "SysAdmins."
+
+Teams: Create teams by grouping agents from different departments (Admin Panel -> Agents -> Teams). Example: "Online Banking.
 </p>
 <br />
 
@@ -43,7 +58,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Part 2: Ticket Creation, Agents, and Users
+
+Allow anyone to create tickets: Disable unregistered users from creating tickets (Admin Panel -> Settings -> User Settings). Enable registration and login for ticket creation.
+
+Configure Agents: Add agents and assign them to departments (Admin Panel -> Agents -> Add New). Example: "Jane" (Dept: SysAdmins), "John" (Dept: Support).
+
+Configure Users: Add customers (Agent Panel -> Users -> Add New). Example: "Karen," "Ken."
 </p>
 <br />
 
@@ -51,6 +72,28 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Part 3: SLA Configuration and Help Topics
+
+Configure SLA: Set up service level agreements with specific grace periods and schedules (Admin Panel -> Manage -> SLA). Example:
+
+Sev-A (Grace Period: 1 hour, Schedule: 24/7)
+
+Sev-B (Grace Period: 4 hours, Schedule: 24/7)
+
+Sev-C (Grace Period: 8 hours, Business Hours)
+
+Configure Help Topics: Define ticket categories for users to choose from when creating a ticket (Admin Panel -> Manage -> Help Topics). Example:
+
+Business Critical Outage
+
+Personal Computer Issues
+
+Equipment Request
+
+Password Reset
+
+Other
+
+This setup helps define your team structure, user roles, SLA response times, and the categories available for users when submitting support tickets.
 </p>
 <br />
