@@ -44,6 +44,13 @@ osTicketing system Configurations:
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+Admin/Analyst Login Page:
+http://localhost/osTicket/scp/login.php
+
+End Users osTicket URL:
+http://localhost/osTicket 
+
+  
 Part 1: Configuration of Roles, Departments, and Teams
 
 Configure roles to group permissions (Admin Panel -> Agents -> Roles). Example: "Supreme Admin."
