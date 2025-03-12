@@ -41,7 +41,10 @@ osTicketing system Configurations:
 <h2>Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![Image](https://github.com/user-attachments/assets/ea124b29-f091-4d83-86c1-784cca2f6cc4)
+
+
 </p>
 <p>
 Admin/Analyst Login Page:
