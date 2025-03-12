@@ -82,7 +82,10 @@ Configure Users: Add customers (Agent Panel -> Users -> Add New). Example: "Kare
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![Image](https://github.com/user-attachments/assets/d19c49e6-fbcc-4e78-bce1-1cde7533e12e)
+
+
 </p>
 <p>
 Part 3: SLA Configuration and Help Topics
