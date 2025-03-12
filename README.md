@@ -65,7 +65,10 @@ Teams: Create teams by grouping agents from different departments (Admin Panel -
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![Image](https://github.com/user-attachments/assets/230b686d-91e6-4c6e-b777-49675a81a888)
+
+
 </p>
 <p>
 Part 2: Ticket Creation, Agents, and Users
