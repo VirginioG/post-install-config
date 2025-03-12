@@ -8,7 +8,7 @@ This tutorial provides detailed instructions for the post-installation configura
 
 <h2>Video Demonstration</h2>
 
-https://youtu.be/YH2zFxS_2uo?si=V8C6V_kT4PB5nFtW
+<a href=https://youtu.be/YH2zFxS_2uo?si=V8C6V_kT4PB5nFtW
 
 <h2>Environments and Technologies Used</h2>
 
